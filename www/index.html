@@ -13,10 +13,21 @@
       #map { height: 100%; }
     </style>
         <title>Prayer Walk</title>
-    </head>
-    <body>
-            <div id="map"></div>
-    <script type="text/javascript">
+    
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
 
 var map;
 function initMap() {
@@ -27,11 +38,9 @@ function initMap() {
 }
 
     </script>
-        
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAM6idrBfkWtm2KoPOOGehM8eK76nlqtM&callback=initMap">     
-        </script>
-        
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAM6idrBfkWtm2KoPOOGehM8eK76nlqtM&callback=initMap"
+        async defer></script>
+
 <!--        <div class="app">
             <h1>Initializing test</h1>
             <div id="deviceready" class="blink">
