@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.mornstartech.PrayerWalk" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
     <name>Prayer Walk</name>
     <description>
         Prayer Walk is an app to enable more effective neighborhood prayer walks by individuals and groups.
