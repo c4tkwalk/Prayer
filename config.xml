@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+<widget id="com.mornstartech.PrayerWalk" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Prayer Walk</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Prayer Walk is an app to enable more effective neighborhood prayer walks by individuals and groups.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="chuck@mornstartech.com.com" href="http://mornstartech.com">
+        c4tk Team
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
@@ -17,7 +17,7 @@
     <preference name="stay-in-webview" value="false" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="false" />
+    <preference name="exit-on-suspend" value="true" />
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
