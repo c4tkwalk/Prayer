@@ -7,16 +7,6 @@
     <author email="chuck@mornstartech.com.com" href="http://mornstartech.com">
         c4tk Team
     </author>
-    
-    <!--
-Google Map API key name=c4tkwalk_key, 
-    value=AIzaSyBMlutatcKM3GpeFkoazXLqy52C2wwsq4U
-name=c4tkwalk2
-value=AIzaSyBpT4Tz4QEcl57pQ93iJzMKG7IUzkk22R8
-value=AIzaSyDAM6idrBfkWtm2KoPOOGehM8eK76nlqtM
--->
-    <!--site IP address 65.112.125.131 -->
-    
     <content src="index.html" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
